@@ -222,9 +222,8 @@ section{
   width: 100%;
   min-height: 500px;
   height: 100vh;
-  /*background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://media.discordapp.net/attachments/588757704948973604/592750987702304808/InternationalflagsatShawMUN.jpeg") center center;*/
   /* background-image: url("https://cdn.discordapp.com/attachments/588757704948973604/602734581619097603/Main.jpg"); */
-  background-image: url("https://wallpapercave.com/wp/wp2227782.jpg");
+  background-image: url("images/background.jpg");
   /* background-image:url("https://wallpaperplay.com/walls/full/2/0/a/324371.jpg"); */
  background-position: center center;
 
