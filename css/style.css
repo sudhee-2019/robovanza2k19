@@ -224,12 +224,8 @@ section{
   min-height: 500px;
   height: 100vh;
   /* background-image: url("https://cdn.discordapp.com/attachments/588757704948973604/602734581619097603/Main.jpg"); */
-<<<<<<< HEAD
-  background-image: url("https://c.wallhere.com/photos/e2/68/digital_art_glowing_men_robot_technology_sports_athletes_black_background-101006.jpg!d");
-=======
-  background-image: url("/images/background.jpg");
->>>>>>> 39d93895be28265c5690b7745d3fa2565841d318
-  /* background-image:url("https://wallpaperplay.com/walls/full/2/0/a/324371.jpg"); */
+  /* background-image: url("/images/background.jpg"); */
+  background-image:url("https://wallpaperplay.com/walls/full/2/0/a/324371.jpg");
  background-position: center center;
 
   -webkit-background-size: cover;
