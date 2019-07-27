@@ -29,7 +29,7 @@
     font-size: 48px;
   }
   .service-item h5 {
-    color: #777;
+    color: white;
     position: relative;
     top: 80px;
     -webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -39,6 +39,7 @@
     transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   .service-item .service-desc {
+    color: white;    
     width: 80%;
     margin: 0 auto;
     opacity: 0;
@@ -58,11 +59,16 @@
   .service-item:hover {
     border-color: #00b2ca;
   }
-  .service-item:hover i {
-    top: -10px;
+
+  img{
+    top: 10px;
+    height: 60px;;
+  }
+  .service-item:hover img {
+    top: -1px;
   }
   .service-item:hover h5 {
-    top: -30px;
+    top: -08px;
   }
   .service-item:hover .service-desc {
     opacity: 1;
