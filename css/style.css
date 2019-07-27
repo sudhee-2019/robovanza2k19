@@ -38,10 +38,10 @@ margin-left: -50px;
     padding: 20px;
   }
 /*.glow {
-    font-size: 80px; 
+    font-size: 80px;
     color: #fff;
     text-align: center;
-    
+
   }*/
   h3 {
   font-size: 80px;
@@ -53,9 +53,9 @@ margin-left: -50px;
     margin: auto;
     /* color: #525252; */
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    font-weight: 400;
 /*    background-color: #131313;*/
-    padding: 20px; 
+    padding: 20px;
 }
 
 .width60{
@@ -78,11 +78,11 @@ h3{
     /* font-size: 80px; */
     color: #fff;
     text-align: center;
-    
+
   }
 
   .glow{
-     font-size: 80px; 
+     font-size: 80px;
 /*    color: red;*/
     text-align: center;
     -webkit-animation: glow 1.5s ease-in-out infinite alternate;
@@ -95,13 +95,13 @@ h3{
       /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #cecece, 0 0 50px #ffffff, 0 0 60px #a8a8a8, 0 0 70px #b8b8b8; */
       text-shadow: 0 0 10px #ffffff, 0 0 30px #e4e4e4;
     }
-    
+
     to {
       /* text-shadow: 0 0 20px #fff, 0 0 30px #e4e4e4, 0 0 40px #dddddd, 0 0 50px #fbfbfb, 0 0 60px #f5eef2, 0 0 70px #ececec, 0 0 80px #e6e6e6; */
       text-shadow: 0 0 20px #aeb5ff, 0 0 30px #e4e4e4;
     }
   }
-  
+
 
 body{
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
@@ -183,7 +183,7 @@ section{
 
 @media(max-width: 746px){
   .glow{
-     font-size: 30px; 
+     font-size: 30px;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -224,7 +224,11 @@ section{
   min-height: 500px;
   height: 100vh;
   /* background-image: url("https://cdn.discordapp.com/attachments/588757704948973604/602734581619097603/Main.jpg"); */
+<<<<<<< HEAD
   background-image: url("https://c.wallhere.com/photos/e2/68/digital_art_glowing_men_robot_technology_sports_athletes_black_background-101006.jpg!d");
+=======
+  background-image: url("/images/background.jpg");
+>>>>>>> 39d93895be28265c5690b7745d3fa2565841d318
   /* background-image:url("https://wallpaperplay.com/walls/full/2/0/a/324371.jpg"); */
  background-position: center center;
 
@@ -338,7 +342,7 @@ h4{
   margin: 20px;
   padding: 20px;
 
-  
+
 
 }
 .card-primary:hover {
@@ -372,7 +376,7 @@ h4{
   margin-bottom: 20px;
 }
 .img-circle{
-  
+
   border-radius: 50%;
 
 }
