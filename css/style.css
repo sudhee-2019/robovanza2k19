@@ -7,6 +7,16 @@
   --blue-color: #1565c0;
   --blue-dark-color: #0a4e9b;
 }
+@font-face {
+    font-family: batma;
+    src:url(batmfa__.ttf);
+    font-weight: 100;
+  /*  font-style: normal;*/
+
+}
+.hero-unit-btn{
+  font-family: batma;
+}
 #loadingg {
 
    width: 100%;
@@ -45,7 +55,7 @@ margin-left: -50px;
   }*/
   h3 {
   font-size: 80px;
-  background: -webkit-linear-gradient( #c0495c , #434a99);
+  background: -webkit-linear-gradient( #ffffff ,  #FF0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -83,6 +93,8 @@ h3{
 
   .glow{
      font-size: 80px;
+      font-family: batma;
+
 /*    color: red;*/
     text-align: center;
     -webkit-animation: glow 1.5s ease-in-out infinite alternate;
@@ -278,7 +290,8 @@ section{
   color: #FFC90D;
 }
 .hero-unit-btn{
-  font-family: Dosis, sans-serif;
+/*  font-family: Dosis, sans-serif;*/
+ font-family: batma;
   margin-top: 10px;
   padding: 10px 30px;
   border: 1px solid #fff;
@@ -297,6 +310,28 @@ section{
   border: 2px solid #00123F;
 }
 @media(max-width: 748px){
+  .hero-unit{
+  display: table;
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  height: 100vh;
+  /* background-image: url("https://cdn.discordapp.com/attachments/588757704948973604/602734581619097603/Main.jpg"); */
+  /* background-image: url("/images/background.jpg"); */
+  background-image:url("https://c.wallhere.com/photos/e2/68/digital_art_glowing_men_robot_technology_sports_athletes_black_background-101006.jpg!d");
+ background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  overflow: hidden;
+
+}
+/*.er{
+padding-bottom:00px;
+}
+*/
   .hero-unit-primary-text{
     font-size: 35px;
   }
@@ -332,10 +367,15 @@ h4{
 }
 .card-primary{
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
-  border: 1px solid #767676;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+ #c0495c , #434a99
+    ) 1 100%;
   border-radius: 3px;
-  background-color: #000;
-  color: #555;
+  background-color: transparent;
+/*  color: #555;*/
   /* width: 205px;
   height: 285px; */
   width: 355px;
@@ -424,8 +464,13 @@ h4{
 .footer-image img{
   width: 90px;
 }
-
-
+/*.robo-head1{
+  margin-top: 70px; color: #131313; font-size: 80px;
+}
+*/
+.er{
+padding-bottom: 600px;
+}
 
 
 
