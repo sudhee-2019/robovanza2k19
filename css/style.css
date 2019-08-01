@@ -47,6 +47,12 @@ margin-left: -50px;
     height: 250px;
     padding: 20px;
   }
+
+  .image2{
+    height: 260px;
+    padding: 20px;
+  }
+
 /*.glow {
     font-size: 80px;
     color: #fff;
@@ -119,7 +125,13 @@ h3{
   }
 
   #about_robovanza1{
+    font-size: 60px;
     padding-top: 30px;
+  }
+
+  #events1{
+    font-size: 60px;
+
   }
 
 body{
@@ -247,6 +259,7 @@ section{
   background-image:url("https://c.wallhere.com/photos/e2/68/digital_art_glowing_men_robot_technology_sports_athletes_black_background-101006.jpg!d");
   /* background-image:url("https://wallpaperplay.com/walls/full/2/0/a/324371y.jpg"); */
   background-position: center center;
+  background-size: 300px 100px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
