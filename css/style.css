@@ -206,6 +206,10 @@ section{
   width: 100px;
 }
 
+.er{
+  padding-bottom: 600px;
+  }
+
 @media(max-width: 746px){
   .glow{
      font-size: 30px;
@@ -215,6 +219,15 @@ section{
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
   }
+
+  #about_robovanza1{
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  .er{
+    padding-bottom: 100px;
+    }
   .navbar-transparent{
     background:rgba(0,0,0,0.6);
   }
@@ -478,9 +491,7 @@ h4{
   margin-top: 70px; color: #131313; font-size: 80px;
 }
 */
-.er{
-padding-bottom: 600px;
-}
+
 
 
 
