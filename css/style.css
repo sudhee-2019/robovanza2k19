@@ -159,7 +159,8 @@ section{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #525252;
+  color: #ffffff;
+  text-align: center;
 }
 .team-des{
   font-family: 'Open Sans', sans-serif;
@@ -375,7 +376,9 @@ padding-bottom:00px;
 /*Flexboxes*/
 /*===========================================================*/
 h4{
-  hyphens:auto
+  hyphens:auto;
+  font-weight: 700;
+
 }
 .card-container{
   position: relative;
@@ -405,10 +408,37 @@ h4{
   height: 450px;
   margin: 20px;
   padding: 20px;
+}
 
+.team-card{
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border-width: 3px;
+  /* border-style: solid; */
+  /* border-image: 
+    linear-gradient(
+ #c0495c , #434a99
+    ) 1 100%; */
+  border-radius: 50%;
+  background-color: transparent;
+  /* width: 355px; */
+  /* height: 450px; */
+  margin: 20px;
+  padding: 20px;
+}
 
+.team-image{
+  height: 300px;
+  width: 300px;
+  border-radius: 500px;
+
+  /* width: ; */
 
 }
+
+#himamsu{
+  clip: rect(0px,200px,200px,0px);
+}
+
 .card-primary:hover {
   z-index: 1;
   border: none;
