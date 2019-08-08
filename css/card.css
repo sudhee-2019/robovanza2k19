@@ -60,11 +60,11 @@
     border-color: #00b2ca;
   }
 
-  img{
+  #svg1{
     top: 10px;
     height: 60px;;
   }
-  .service-item:hover img {
+  .service-item:hover svg1 {
     top: -1px;
   }
   .service-item:hover h5 {

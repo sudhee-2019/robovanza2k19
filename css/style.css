@@ -506,7 +506,7 @@ h4{
   background-color: #ccc;
 
 }
-.footer-image img{
+ .footer-image /*img */{
   width: 90px;
 }
 /*.robo-head1{
