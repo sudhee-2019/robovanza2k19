@@ -407,7 +407,7 @@ h4{
   width: 355px;
   height: 450px;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .team-card{
@@ -443,6 +443,19 @@ h4{
   transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
   margin: 5px;
 }
+
+.map_div{
+  height: 320px;
+  width: 320px;
+  border: 10px;
+  border: #FFB300;
+}
+
+.cbit_map{
+  border: 10px;
+  border:rgba(0, 0, 0, 0.349);
+}
+
 .title-h1{
   margin-top: 40px;
   font-weight: 500;
